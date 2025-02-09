@@ -1,0 +1,322 @@
+* {
+    margin:0;
+}
+body {
+    background-color:rgb(255, 215, 128);
+}
+.side {
+    width:50%;
+    height:1000px;
+    background-color:rgb(27, 27, 27);
+    float:right;
+  display:flex;
+  align-items: center;
+}
+.sideLeft {
+    height:1000px;
+    width:50%;
+    background-color:rgb(255, 215, 128);
+    float:left;
+}
+.sideLeft h2 {
+    font-family: 'Titillium Web', sans-serif;
+    margin:20px;
+    width:100px;
+}
+.sideLeft h1 {
+    font-size:100px;
+    width:500px;
+    font-family: 'Titillium Web', sans-serif;
+    padding:0px 0px;
+    height:50px;
+}
+.largeText {
+    margin-left:50px;
+    margin-top:200px;
+    width:400px;
+}
+.pianoKeyContainer {
+    width:100%;
+    height:600px;
+    display:flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    flex-direction:column;
+}
+.pianoKey1 {
+    width:80%;
+    height:19%;
+    border-top-left-radius:10px;
+    border-bottom-left-radius:10px;
+    transition:.5s;
+    background-color:rgb(124, 162, 177);
+  z-index:90;
+  position:relative;
+  flex:1;
+  margin:1px 0;
+}
+.pianoKey1:hover {
+    flex:2;
+    background-color:rgb(213, 227, 233);
+}
+
+.pianoKey2 {
+    width:80%;
+    height:19%;
+    border-top-left-radius:10px;
+    border-bottom-left-radius:10px;
+    transition:.5s;
+    background-color:rgb(255, 215, 128);
+    z-index:10;
+    position:relative;
+    flex:1;
+    margin:1px 0;
+}
+.pianoKey2:hover {
+    flex:2;
+    background-color:rgb(255, 232, 183);
+}
+.pianoKey3 {
+    width:80%;
+    height:19%;
+    border-top-left-radius:10px;
+    border-bottom-left-radius:10px;
+    transition:.5s;
+    background-color:rgb(255, 226, 199);
+    z-index:10;
+    position:relative;
+    flex:1;
+    margin:1px 0;
+}
+.pianoKey3:hover {
+    flex:2;
+    background-color:rgb(255, 255, 255);
+}
+.pianoKey4 {
+    width:80%;
+    height:19%;
+    border-top-left-radius:10px;
+    border-bottom-left-radius:10px;
+    transition:.5s;
+    background-color:rgb(212, 120, 0);
+      flex:1;
+    margin:1px 0;
+}
+.pianoKey4:hover {
+    flex:2;
+    background-color:rgb(255, 181, 83);
+}
+.pianoKey5 {
+    width:70%;
+    height:19%;
+    border-top-left-radius:10px;
+    border-bottom-left-radius:10px;
+    transition:.5s;
+    background-color:rgb(220, 182, 255);
+        flex:1;
+    margin:1px 0;
+}
+.pianoKey5:hover {
+    flex:2;
+    background-color:rgb(229, 202, 255);
+}
+.blackKey {
+    width:50%;
+    height:100px;
+    background-color:black;
+    border-top-left-radius:10px;
+    border-bottom-left-radius:10px; 
+    z-index:50;
+    position:absolute;
+    right:0;
+    bottom:0;
+    transform: translateY(50%);
+}
+.blackKey2 {
+    width:50%;
+    height:100px;
+    background-color:black;
+    border-top-left-radius:10px;
+    border-bottom-left-radius:10px;
+    z-index:40;
+    position:absolute;
+    right:0;
+    bottom:0;
+    transform: translateY(50%);
+}
+.header {
+    width:100%;
+    height:100px;
+    display:flex;
+    flex-direction:row;
+}
+.headerLeft {
+    width:50%;
+    height:100%;
+}
+.headerRight {
+    width:50%;
+    height:100%;
+    display:flex;
+  flex-direction:row;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.Logo {
+    height:70px;
+    width:70px;
+    background-image: url(images/music.png);
+    background-size:cover;
+}
+.burgerIcon {
+  color:black;
+  display:none;
+}
+.innerText {
+    width:50px;
+    height:50px;
+    background-color:rgba(0, 0, 0, 0.253);
+    border-radius:10px;
+    text-align:center;
+    margin-top:35px;
+    margin-left:10px;
+}
+.innerText h1 {
+    color:white;
+    font-family: 'Titillium Web', sans-serif;
+}
+.main {
+    width:100%;
+    height:1000px;
+}
+.section1 {
+    width:100%;
+    height:500px;
+    background-color:white;
+}
+.section1 h1 {
+    text-align:center;
+    font-size:50px;
+    font-family: 'Titillium Web', sans-serif;
+    position:relative;
+    top:100px;
+    color:rgb(255, 215, 128);
+}
+.section1Title {
+    width:100%;
+    height:300px;
+    background-color:rgb(27, 27, 27);
+}
+.section1Title p {
+    color:white;
+    font-family: 'Titillium Web', sans-serif;
+    position:relative;
+    text-align:center;
+    top:120px;
+}
+.section1Left {
+    width:50%;
+    height:500px;
+    background-image: url(images/onlinePiano.jpg);
+    background-size:cover;
+}
+.section2Right {
+    width:50%;
+    height:500px;
+    background-color:white;
+}
+.section2Right p {
+    text-align:center;
+    position:relative;
+    top:110px;
+    left:250px;
+    width:500px;
+    font-family: 'Titillium Web', sans-serif;
+}
+.section2Right a  {
+    color:black;
+}
+.sections {
+    display:flex;
+    flex-direction:row;
+}
+hello {
+    background-color:rgba(0, 104, 5, 0.548);
+}
+ul li {
+  display:inline;
+  padding: 0px 10px;
+  font-family: 'Titillium Web', sans-serif;
+}
+ ul a {
+  color:black;
+  text-decoration:none;
+  transition:.5s;
+}
+
+
+
+
+
+/* @Media */
+@media only screen and (max-width: 430px) {
+  .sideLeft h1 {
+    font-size:1em;
+    width:200px;
+    font-family: 'Titillium Web', sans-serif;
+    padding:0px 0px;
+    height:0px;
+    position:relative;
+    right:30px;
+}
+
+.section2Right p {
+    font-size:10px;
+    font-family: 'Titillium Web', sans-serif;
+    width:200px;
+    left:0px;
+    margin:0 auto;
+    text-align:center;
+}
+
+  .largeText {
+    margin-top:200px;
+    width:100px;
+}
+  .sideLeft h1 {
+    font-size:35px;
+}
+
+  .Logo {
+    display:none;
+}
+
+  .section1 h1 {
+    font-size:30px;
+  }
+
+  .section2Right {
+    width:100%;
+    height:300px;
+}
+
+.section1Left {
+    width:100%;
+    height:300px;
+    background-image: url(images/onlinePiano.jpg);
+    background-size:cover;
+}
+
+  .sections {
+    display:flex;
+    flex-direction:column-reverse;
+}
+  .headerRight ul li {
+    display:none;
+  }
+  .burgerIcon {
+    display:block;
+    margin-bottom:20px;
+  }
+
+}
